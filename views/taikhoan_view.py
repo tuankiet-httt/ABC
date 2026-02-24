@@ -21,7 +21,7 @@ class TaiKhoanView:
         self.cbo_loai = ttk.Combobox(frm, values=["Admin", "NhanVien"], state="readonly")
         self.cbo_loai.grid(row=2, column=1)
 
-        tk.Label(frm, text="Nhân viên").grid(row=3, column=0)
+        tk.Label(frm, text="Nv").grid(row=3, column=0)
         self.cbo_nhanvien = ttk.Combobox(frm, state="readonly")
         self.cbo_nhanvien.grid(row=3, column=1)
 
