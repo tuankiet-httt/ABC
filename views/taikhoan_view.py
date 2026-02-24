@@ -4,7 +4,7 @@ from tkinter import ttk
 class TaiKhoanView:
     def __init__(self, root):
         self.root = root
-        self.root.title("Quản lý Tài khoản")
+        self.root.title("Quản lý ")
 
         frm = tk.Frame(root)
         frm.pack(pady=10)
